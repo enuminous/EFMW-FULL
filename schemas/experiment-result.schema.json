@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EFMW Experiment Result",
+  "type": "object",
+  "required": [
+    "experiment_id",
+    "primary_endpoint",
+    "classification"
+  ],
+  "properties": {
+    "experiment_id": {
+      "type": "string"
+    },
+    "primary_endpoint": {
+      "type": "object"
+    },
+    "classification": {
+      "type": "string"
+    }
+  }
+}
