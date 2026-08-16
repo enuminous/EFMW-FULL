@@ -1,0 +1,47 @@
+{
+  "experiment_id": "EFMW-EXP-001-v1.0",
+  "execution_environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "transport_limitation": "Original frozen ZIP was unavailable to Grok; transcribed frozen specification executed.",
+  "n": 40,
+  "primary_endpoint": {
+    "criterion": "median paired lead-time gain >= 10 timesteps",
+    "observed": 16.5,
+    "outcome": "PASS"
+  },
+  "statistics": {
+    "median_baseline_lead": 59.0,
+    "median_efmw_lead": 78.0,
+    "median_paired_gain": 16.5,
+    "bootstrap_ci95": [
+      3.5,
+      18.5
+    ],
+    "wilcoxon_p": 0.003923,
+    "mean_baseline_raw_fpr": 0.051311,
+    "mean_efmw_raw_fpr": 0.061506,
+    "efmw_win_rate": 0.75,
+    "median_compute_ratio": 1.117
+  },
+  "predictions": {
+    "P001": "PASS",
+    "P002": "PASS",
+    "P003": "PASS",
+    "P004": "PASS",
+    "P005": "PASS",
+    "P006": "PASS"
+  },
+  "ablations": {
+    "A0": "PASS",
+    "A1": "INDETERMINATE",
+    "A2": "INDETERMINATE",
+    "A3": "INDETERMINATE",
+    "A4": "INDETERMINATE",
+    "A5": "INDETERMINATE"
+  },
+  "classification": "CONFIRMED",
+  "interpretation": "Confirms the bounded EXP-001 synthetic benchmark claim only."
+}
