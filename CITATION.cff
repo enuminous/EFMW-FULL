@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it."
+title: "EFMW Experimental Framework"
+type: software
+authors:
+  - family-names: Wright
+    given-names: Matthew Chenoweth
+version: "1.0.0"
+date-released: "2026-08-16"
+license: MIT
+repository-code: "https://github.com/enuminous/efmw"
+keywords:
+  - EFMW
+  - recursive coherence
+  - early warning
+  - preregistration
