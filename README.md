@@ -1,5 +1,8 @@
 # EFMW
 
+> **Reviewer status (2026-10-21):** This repository retains historical EXP-001 material; it is **not** a second independent frozen-run replication. Start with the [portfolio claims register](https://github.com/enuminous/EFMW_Post156_Zoo_Audit/blob/main/CLAIMS_EVIDENCE_REGISTER.md) and the [frozen-run reconciliation](https://github.com/enuminous/EFMW-EXP-001/blob/main/CONFIRMATORY_RECONCILIATION.md). Compare dated experiment states before quoting older "passed"/"not executed" wording.
+
+
 <!-- ENUMINOUS-LIFECYCLE:START -->
 **Lifecycle review — 2026-10-16: historical EXP-001 result entry point; duplicated layouts.**
 
